@@ -9,10 +9,15 @@
 
   /**  Скругления углов  */
   --border-radius-default: 20px;
+  --border-radius-button: 32px;
 
   /**  Основные цвета */
-  --main-color: #e3e3e3;
+  --main-color: #FA4A0C;
+  --background-color: #F2F2F2;
+  --background-color-header: #FF4B3A;
+
+  --gray-90: #E6E6E6;
 
   /**  Шрифты */
-  --font-family-title: "Open Sans";
+  --font-family-title: "Semibold";
 }

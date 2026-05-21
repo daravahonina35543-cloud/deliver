@@ -1,0 +1,28 @@
+header{
+    padding: var(--border-radius-default) 0;
+    background-color: var(--background-color-header);
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        
+        .logo{
+            background-color: #fff ;
+            border-radius: 50%;
+            width: 73px;
+            height: 73px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            margin-top: 50px;
+
+            .logo_img{
+                width: 45.86px;
+                height: 49.65px;
+            }
+        }
+    }
+}

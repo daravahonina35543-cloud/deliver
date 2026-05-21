@@ -1,0 +1,51 @@
+.container{
+    max-width: 1600px;
+}
+.main{
+    background-color: var(--background-color-header);
+    .container{
+        display: flex;
+        flex-direction: column;
+    .text{
+        margin-left: 50px;
+        margin-top: -10px;
+        color: #fff;
+        font-size: 65px;
+    }
+    .back{
+        display: flex;
+       overflow: hidden;
+       flex-direction: column;
+       margin-left:0px;
+        .human{
+            display: flex;
+            overflow: hidden;
+            width: 414px;
+            margin-top: 50px;
+            height: auto;
+            .human_img{
+                width: 546.3px ;
+                height: 453.07px;
+                object-fit: cover;
+                margin: 0;
+                margin-left: -80px;
+                
+            }}
+        .grad{
+            position: absolute;
+            width: 394px;
+            height: 195px;
+            background: linear-gradient(to bottom, rgba(255, 71, 11, 0.1), rgba(255, 71, 11,1));
+            margin-top: 305px;
+        }
+        .grad_two{
+            position: absolute;
+            width: 272.47px;
+            height: 170.965px;
+            background: linear-gradient(to bottom, rgba(255, 71, 11, 0.1), rgba(255, 71, 11,1));
+            margin-top: 330px;
+            margin-left: 144px;
+        }
+    }
+    }
+}

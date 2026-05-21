@@ -1,0 +1,104 @@
+.container{
+    display: flexbox;
+}
+
+.entry{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    width: 150px;
+    height: 162.38;
+    align-self: center;
+    justify-self: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login{
+    font-size: 18px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+.sign{
+    font-size: 18px;
+    margin-left: 100px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.line{
+    position: absolute;
+    background-color: var(--main-color);
+    height: 3px;
+    width: 134px;
+    margin-left: 50px;
+    animation: line 0.7s infinite alternate linear ;
+}
+
+@keyframes line{
+    to{
+        transform: translateX(180px);
+    }
+}
+
+.authorization{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+.email_text{
+    opacity: 40%;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+.email_input{
+    margin-right: 120px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 3px;
+}
+
+.gray_line{
+    width: 314px;
+    height: 1px;
+    background-color: black;
+}
+
+.pasword_text{
+    opacity: 40%;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 230px;
+    margin-bottom: 10px;
+}
+
+.forgot{
+    font-size: 17px;
+    background-color: transparent;
+    border-style: none;
+    color: var(--main-color);
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.button{
+    margin-top: 150px;
+}

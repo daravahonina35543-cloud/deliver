@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+    <link rel="stylesheet" href="assets/css/main.css" >
+</head>
+<body>
+    <div class="main_container">
+        <div class="head">
+            <img src="../assets/lines.svg" class="lines">
+            <a href="ordersPage.html"><img src="../assets/cart.svg" class="cart"></a>
+        </div>
+        <div class="head_text">
+            <span class="h_text">Delicious food for you</span>
+        </div>
+        <div class="search_food">
+           <a href="notfdPage.html"> <img src="../assets/search.svg" class="search"></a>
+            <a class="search_text" href="searchPage.html">Search</a>
+        </div>
+        <div class="choise">
+            <a href="errorPage.html"> <span class="choise_to">Foods</span></a>
+            <span class="choise_t">Drinks</span>
+            <span class="choise_t">Snacks</span>
+            <span class="choise_t">Sauce</span>
+        </div>
+        <div class="line_o">
+        </div>
+        <div class="see">
+            <span>see more</span>
+        </div>
+        <div class="cards">
+            @@include('../components/_card.html', {
+            "img": "./assets/tomato",
+            "alt": "Еда",
+            "title": "Veggie tomato mix",
+            "text": "N1,900"
+    })
+             @@include('../components/_card.html', {
+            "img": "./assets/eggs",
+            "alt": "Еда",
+            "title": "Egg and cucmber...",
+            "text": "N1,900"
+    })
+            @@include('../components/_card.html', {
+                    "img": "./assets/chiken",
+                    "alt": "Еда",
+                    "title": "Fried chicken m.",
+                    "text": "N1,900"
+            })
+        </div>
+        <div class="icons">
+            <img src="../assets/home.svg" class="home" alt="На главную">
+            <img src="../assets/heart.svg" class="heart" alt="Понравившиеся">
+            <img src="../assets/user.svg" class="user" alt="Профиль">
+            <a href="historyPage.html"> <img src="../assets/history.svg" class="history" alt="История"></a>
+        </div>
+    </div>
+</body>
+</html>

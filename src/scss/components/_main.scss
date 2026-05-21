@@ -1,0 +1,16 @@
+main{
+    padding: var(--border-radius-default) 0;
+    background-color: var(--background-color-header);
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        .text{
+            margin-left: 50px;
+            margin-top: -10px;
+            color: #fff;
+            font-size: 65px;
+        }
+    }
+}

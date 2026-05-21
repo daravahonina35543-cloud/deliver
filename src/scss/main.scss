@@ -12,7 +12,18 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/card';
+@use 'components/header';
+@use 'components/btn-orange';
+@use 'components/mini-card';
+@use 'components/non-pg';
+@use 'components/non-pg-head';
 
-body {
-  background-color: var(--main-color);
-}
+// ==== 5. Pages ====
+@use 'pages/index';
+@use 'pages/loginPage';
+@use 'pages/mainPage';
+@use 'pages/searchPage';
+@use 'pages/historyPage';
+@use 'pages/ordersPage';
+@use 'pages/notfdPage';
+@use 'pages/errorPage';

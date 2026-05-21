@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>History</title>
+</head>
+<body>
+    @@include('../components/_non-pg-head.html', {
+                "title": "History"
+            })
+      @@include('../components/_non-pg.html', {
+                "img": "./assets/list",
+                "alt": "В истории ничего нет",
+                "body-title": "No history yet",
+                "text": "Hit the orange button down below to Create an order",
+            })
+    <div class="btn">
+        @@include('../components/_button.html', {
+        "href":"mainPage.html",
+        "title":"Start odering",
+    })
+    </div>
+</body>
+</html>
